@@ -1,12 +1,15 @@
-## Compiled object files
+
+# Compiled object files
 *.[oO][bB][jJ]
 
 # Executables
 *.[eE][xX][eE]
-# MASM / LINK build artifacts
-*.exe
 *.com
-*.obj
+
+# Preserve MASM toolchain executables
+!/masm/**/*.[eE][xX][eE]
+
+# MASM / LINK build artifacts
 *.map
 *.lst
 *.crf

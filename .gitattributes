@@ -1,0 +1,4 @@
+# Keep shell scripts executable by Bash, and batch files native to Windows.
+*.sh   text eol=lf
+*.bat  text eol=crlf
+*.conf text eol=lf
