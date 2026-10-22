@@ -2,3 +2,7 @@
 *.sh   text eol=lf
 *.bat  text eol=crlf
 *.conf text eol=lf
+
+# Standardized new line
+*.asm  text eol=crlf
+*.ASM  text eol=crlf
