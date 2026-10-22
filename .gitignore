@@ -1,0 +1,20 @@
+## Compiled object files
+*.[oO][bB][jJ]
+
+# Executables
+*.[eE][xX][eE]
+# MASM / LINK build artifacts
+*.exe
+*.com
+*.obj
+*.map
+*.lst
+*.crf
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.~*
+
+# DOSBox-X runtime files
+*.log
