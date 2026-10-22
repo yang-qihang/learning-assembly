@@ -25,7 +25,7 @@ data segment
 
     ; 21 employee counts, each stored as a word (2 bytes).
     dw 3, 7, 9, 13, 28, 38, 130, 220, 476, 778, 1001, 1442, 2258, 2793, 4037, 5635, 8226
-    dw 11542, 14430, 15257, 17800j 
+    dw 11542, 14430, 15257, 17800 
 data ends
 
 table segment
@@ -83,10 +83,10 @@ codesg segment
             ; -----------------------------
             ; Revenue (32-bit integer)
             ; -----------------------------
-            mov ax         , 84[bx].0
+            mov ax         , [bx + 84].0
             mov es:[di].5  , ax
 
-            mov dx         , 84[bx].2
+            mov dx         , [bx + 86].2
             mov es:[di].7  , dx
 
             ; -----------------------------
